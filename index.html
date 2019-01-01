@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="app/styles/bundle.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro" rel="stylesheet">
   <title>Новые театры Москвы</title>
 </head>
 <body>
@@ -13,8 +13,42 @@
     <div class="home-main-wrapper d-grid">
       <div class="home-intro-block">
           <h1 class="sh-font-white">Новые театры Москвы</h1>
+          <p class="home-intro-text sh-font-white">
+          Новые театры Москвы - это проект, в котором рассказывается
+          про новые и малопопулярные театры. Мы собрали много полезной
+          информации об их особенностях, репертуарах, актерах и режиссёрах.
+          </p>
+          <div class="home-intro-buttons">
+            <a href="#" class="sh-button sh-home-intro-button sh-white-button sh-font-white d-flex">
+              <img src="img/arrow-right.png" class="sh-button-arrow">
+              <svg class="sh-button-circle">
+                <circle class="button__circle white-button__circle" r="10" cx="11" cy="11" />
+              </svg>
+              <p>Ближайшие события</p>
+            </a>
+            <a href="#" class="sh-button sh-home-intro-button sh-white-button sh-font-white d-flex">
+              <img src="img/arrow-right.png" class="sh-button-arrow">
+              <svg class="sh-button-circle">
+                <circle class="button__circle white-button__circle" r="10" cx="11" cy="11" />
+              </svg>
+              <p>Актеры и режиссеры</p>
+            </a>
+          </div>
       </div>
-      <div class="home-theatre-block"></div>
+      <div class="home-theatre-block d-flex justify-content-center align-items-center">
+        <div class="home-theatre-hover">
+          <div class="home-theatre-hover-inside">
+            <h3 class="sh-font-black">Щелкунчик<br>в театре</h3>
+            <a href="#" class="sh-button sh-home-theatre-button sh-black-button sh-font-black d-flex">
+              <img src="img/arrow-right-black.png" class="sh-button-arrow">
+              <svg class="sh-button-circle">
+                <circle class="button__circle black-button__circle" r="10" cx="11" cy="11" />
+              </svg>
+              <p>Узнать больше</p>
+            </a>
+          </div>
+        </div>
+      </div>
       <div class="home-theatre-block"></div>
       <div class="home-theatre-block"></div>
       <div class="home-theatre-block"></div>
@@ -26,5 +60,10 @@
       <div class="home-theatre-block"></div>
     </div>
   </section>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/main.js">
+
+</script>
 </body>
 </html>
