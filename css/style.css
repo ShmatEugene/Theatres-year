@@ -1,0 +1,43 @@
+/*------------Basics------------*/
+
+/* Typography */
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+/* Colors*/
+.sh-font-white {
+  color: #ddd;
+}
+
+/*------------Home--------------*/
+
+.d-grid {
+  display: grid;
+}
+
+.home-default-bg {
+  background-image: url('../img/home-default-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.home-main-wrapper {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.home-theatre-block {
+  height: 25vh;
+}
+
+.home-intro-block {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  padding: 100px;
+}
