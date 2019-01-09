@@ -538,3 +538,81 @@ p {
 #actor-img-5 {
   height: 300px;
 }
+
+
+/*------------  Actors single page --------------*/
+
+.actor-main-img {
+  height: 500px;
+}
+
+.actor-info-block-img  {
+  width: 30%;
+}
+
+.actor-info-block-img img {
+  width: 100%;
+}
+
+.actor-info-text {
+  width: 50%;
+  margin-left: 80px;
+}
+
+.achievement {
+  width: 40%;
+  position: relative;
+  margin-top: 40px;
+}
+
+.achievement-date {
+  letter-spacing: 2px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.achievement-line {
+  position: absolute;
+  top: 15px;
+  left: 25%;
+  width: 50%;
+  height: 2px;
+  background: #d7d7d7;
+}
+
+.achievement-text {
+  margin-top: 20px;
+}
+
+.actore-img-slide {
+  height: 600px;
+}
+
+.actors-img-slider-controls {
+  position: absolute;
+}
+
+.actors-img-slider-block {
+  position: relative;
+}
+
+.actors-img-slider-controls {
+  background: #E7F1F6;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.actors-img-slider-controls .sh-prev, .actors-img-slider-controls .sh-next{
+  display: inline-block;
+  padding: 45px;
+}
+
+.actors-img-slider-controls img {
+  width: 40px;
+}
+
+.actor-slider-prev {
+  transform: rotate(180deg);
+}

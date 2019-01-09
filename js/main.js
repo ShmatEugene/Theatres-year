@@ -36,3 +36,15 @@ $('.events-slider-controller').hover(function() {
 }, function() {
 
 })
+
+
+
+
+//slider
+
+$(document).ready(function(){
+  $('.actor-img-slider').slick({
+    prevArrow: $('.sh-prev'),
+      nextArrow: $('.sh-next'),
+  });
+});
