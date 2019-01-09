@@ -48,3 +48,10 @@ $(document).ready(function(){
       nextArrow: $('.sh-next'),
   });
 });
+
+
+//appear
+
+$('.appear').appear(function() {
+  alert('111');
+})

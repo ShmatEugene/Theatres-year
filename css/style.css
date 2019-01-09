@@ -616,3 +616,76 @@ p {
 .actor-slider-prev {
   transform: rotate(180deg);
 }
+
+
+/*------------  Actors single page --------------*/
+
+.event-full-width {
+  background-image: url('../img/events/1.jpg');
+  height: 500px;
+  position: relative;
+}
+
+.event-full-width-desc {
+  position: absolute;
+  background: #fff;
+  padding: 40px;
+  bottom: 0;
+  right: 0;
+}
+
+.event-full-width-desc a p, .event-small-events a p {
+  font-weight: 600;
+}
+
+.event-fuul-width-desc-date {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.small-event {
+  width: 30%;
+  position: relative;
+  margin-top: 40px;
+}
+
+.small-event h3 {
+  margin-top: 20px;
+}
+
+.small-event a {
+  margin-top: 15px;
+}
+
+.small-event .small-event-img {
+  height: 400px;
+}
+
+.event-small-events-list {
+  margin-top: 60px;
+}
+
+.small-event-date {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.small-event-date-text {
+  padding: 20px;
+  background: #fff;
+}
+
+.small-event-date-number {
+  font-size: 34px;
+  font-family: 'Lora', serif;
+}
+
+.small-event-date-month {
+  font-family: 'Lora', serif;
+  margin-top: 7px;
+}
