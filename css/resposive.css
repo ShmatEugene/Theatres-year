@@ -1,0 +1,296 @@
+
+
+/*------------ Other pages ----------*/
+
+@media (max-width: 1200px) {
+  .sh-container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sh-container {
+    width: 720px;
+  }
+
+  .events-slider-controller-content {
+    padding: 0 15px;
+  }
+
+  .info-block {
+    width: 37%;
+    height: 340px;
+    padding: 30px;
+  }
+
+  .actors-list-column {
+    width: 40%;
+  }
+
+  .small-event {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sh-container {
+    width: 540px;
+  }
+
+  .event-slide-date-block {
+    width: 150px;
+    height: 150px;
+  }
+
+  .info-section .d-flex {
+    flex-wrap: wrap;
+  }
+
+  .info-block {
+    width: 100%;
+    height: auto;
+  }
+
+  .info-block:last-child {
+    margin-top: 40px;
+  }
+
+  .sh-page-title-bg h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 { font-size: 34px; font-style: normal; line-height: 50px; }
+  h2 { font-size: 28px; font-style: normal; line-height: 35px; }
+  h3 { font-size: 20px; font-style: normal; line-height: 30px; }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .sh-container {
+    width: auto;
+  }
+
+  .actors-list-block, .theatre-history {
+    width: 70%;
+    margin-left: 10%;
+  }
+
+  .theatre-history {
+    margin-top: 60px;
+  }
+
+  .theatre-content-section .sh-container .sh-row .d-flex {
+    flex-wrap: wrap;
+  }
+
+  .actors-list-block {
+    border-right: none;
+  }
+
+  .theatre-first-img {
+    height: 200px;
+  }
+
+  .header-navigation {
+    padding: 0 15px;
+    justify-content: space-between;
+  }
+
+  .header-menu-list {
+    margin-right: 0;
+  }
+
+  .header-nav-button {
+    display: none;
+  }
+
+  .header-menu-list ul li a {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .events-slider-controls {
+    width: 100%;
+  }
+
+  .events-slider-slides {
+    display: none;
+  }
+
+  .footer-menu-list .d-flex{
+    padding: 0 10px;
+  }
+
+  .actors-list-column {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .actor-main-img {
+    height: 200px;
+  }
+
+  .actor-info-flex {
+    flex-wrap: wrap;
+  }
+
+  .actor-info-block-img, .actor-info-text, .achievement, .small-event {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .actor-info-text {
+    margin-top: 60px;
+  }
+
+  .achievements-section h2 {
+    margin-left: 10%;
+  }
+
+  .actore-img-slide {
+    height: 400px;
+  }
+}
+
+
+/*------------ Home ----------*/
+
+@media (max-height: 610px) {
+  .home-intro-block {
+    padding: 50px;
+  }
+
+  .home-theatre-hover-inside h3 {
+    font-size: 20px;
+  }
+
+  .home-theatre-hover-inside a p {
+    font-size: 11px;
+  }
+
+  .home-theatre-hover-inside {
+    padding: 10px;
+  }
+
+  .home-theatre-hover {
+    height: auto;
+  }
+}
+
+@media (max-height: 465px) {
+  .home-intro-block {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .home-theatre-hover-inside a p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .home-intro-block {
+    padding: 80px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .home-intro-block {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .home-theatre-hover-inside h3 {
+    font-size: 20px;
+  }
+
+  .home-theatre-hover-inside a p {
+    font-size: 11px;
+  }
+
+  .home-theatre-hover {
+    height: auto;
+  }
+
+  .home-intro-block {
+    padding: 40px;
+  }
+
+  .home-default-bg {
+    height: auto;
+  }
+
+  .home-theatre-block {
+    min-height: 25vh;
+  }
+
+  .home-theatre-hover-inside .sh-button-arrow {
+    display: none;
+  }
+
+  .home-theatre-hover-inside .sh-button-circle {
+    display: none;
+  }
+
+  .home-theatre-hover-inside .sh-button p {
+    margin-left: 0px;
+  }
+
+  .home-intro-block h1 {
+    font-size: 30px;
+    line-height: 38px
+  }
+
+  .home-intro-block a p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-main-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .home-theatre-block {
+    height: auto;
+    padding: 40px;
+  }
+
+  .home-theatre-hover {
+    width: 80%;
+    margin-left: auto;
+  }
+
+  .home-theatre-hover-inside {
+    opacity: 1;
+  }
+
+  .home-intro-block {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .home-theatre-hover-inside .sh-button-arrow {
+    display: block;
+  }
+
+  .home-theatre-hover-inside .sh-button-circle {
+    display: block;
+  }
+
+  .home-theatre-hover-inside .sh-button p {
+    margin-left: 15px;
+  }
+
+  .home-default-bg {
+    background: #111 !important;
+  }
+}

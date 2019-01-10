@@ -50,8 +50,19 @@ $(document).ready(function(){
 });
 
 
+
 //appear
 
-$('.appear').appear(function() {
-  alert('111');
-})
+$('.mask-animation').each(function() {
+    var $this = $(this);
+    if($this.attr('data-anim-delay')) {
+    var animDelay = Number($this.attr('data-anim-delay'));
+  } else {
+    animDelay = 2500;
+  }
+    setTimeout(function() {
+        $this.appear(function() {
+          $this.addClass('mask-animation-applied');
+        });
+    }, animDelay);
+});

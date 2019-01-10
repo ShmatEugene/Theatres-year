@@ -14,9 +14,9 @@
   <div class="header-navigation d-flex align-items-center justify-content-around">
     <div class="header-menu-list">
         <ul class="d-flex">
-          <li><a href="#">Театры</a></li>
-          <li><a href="#">Ближайшие события</a></li>
-          <li><a href="#">Актеры и режиссеры</a></li>
+          <li><a href="../index.html">Театры</a></li>
+          <li><a href="../events-list.html">Ближайшие события</a></li>
+          <li><a href="../actors-list.html">Актеры и режиссеры</a></li>
         </ul>
     </div>
     <div class="header-nav-button">
@@ -29,7 +29,7 @@
   </div>
 </header>
 
-<div style="background-image: url('../img/team/p1/1.jpg')" class="actor-main-img sh-bg sh-mt-100"></div>
+<div style="background-image: url('../img/team/p1/1.jpg')" class="actor-main-img sh-bg sh-mt-100 mask-animation" data-anim-delay = "500"></div>
 
 <section class="actor-info-section">
   <div class="sh-container">
@@ -37,8 +37,8 @@
       <div class="actor-block-title sh-mt-100 sh-mb-60">
         <h1 class="sh-font-black">Имя актера</h1>
       </div>
-      <div class="d-flex">
-        <div class="actor-info-block-img">
+      <div class="d-flex actor-info-flex">
+        <div class="actor-info-block-img mask-animation" data-anim-delay = "1500">
           <img src="../img/team/p1/2.jpg" alt="Актер">
         </div>
         <div class="actor-info-text">
@@ -55,7 +55,7 @@
   <div class="sh-container">
     <div class="sh-row">
       <h2 class="sh-font-black">Награды</h2>
-      <div class="achievements-list d-flex justify-content-between flex-wrap">
+      <div class="achievements-lis d-flex justify-content-between flex-wrap">
         <div class="achievement">
           <div class="achievement-date">2008</div>
           <div class="achievement-line"></div>
@@ -84,7 +84,7 @@
 <section class="actor-slider-section sh-mt-100">
   <div class="sh-container">
     <div class="sh-row">
-      <div class="actors-img-slider-block">
+      <div class="actors-img-slider-block mask-animation">
         <div class="actor-img-slider">
           <div class="actore-img-slide sh-bg" style="background-image: url('../img/team/p1/3_2.jpg')" ></div>
           <div class="actore-img-slide sh-bg" style="background-image: url('../img/team/p1/3_1.jpg')" ></div>
@@ -138,15 +138,16 @@
 <footer class="footer d-flex justify-content-center align-items-center sh-mt-100">
   <div class="footer-menu-list">
       <ul class="d-flex">
-        <li><a href="#">Театры</a></li>
-        <li><a href="#">Ближайшие события</a></li>
-        <li><a href="#">Актеры и режиссеры</a></li>
+        <li><a href="../index.html">Театры</a></li>
+        <li><a href="../events-list.html">Ближайшие события</a></li>
+        <li><a href="../actors-list.html">Актеры и режиссеры</a></li>
       </ul>
   </div>
 </footer>
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="../js/lib/slick.min.js"></script>
+<script type="text/javascript" src="../js/lib/jquery.appear.js"></script>
 <script type="text/javascript" src="../js/main.js"></script>
 </body>
 </html>

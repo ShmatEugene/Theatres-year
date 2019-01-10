@@ -42,6 +42,17 @@
   background-repeat: no-repeat;
 }
 
+.sh-bg-fixed {
+  background-color: rgba(0, 0, 0, 0);
+  background-origin: initial;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  position: relative; z-index: 0;
+  background-attachment: fixed !important;
+}
+
+
 .sh-mt-100 {
   margin-top: 100px;
 }
@@ -61,6 +72,7 @@
 .sh-mb-60 {
   margin-bottom: 60px;
 }
+
 /* Grid */
 .sh-container {
   width: 1170px;
@@ -121,6 +133,28 @@ p {
 
 .sh-font-black {
   color: #333;
+}
+
+/* Animations */
+
+.mask-animation {
+  position: relative;
+}
+
+.mask-animation:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transition: all 0.5s ease-in-out;
+  z-index: 999;
+}
+
+.mask-animation-applied:before {
+  content: "";
+  height: 0%;
 }
 
 /* Buttons */
@@ -331,7 +365,7 @@ p {
 .actors-group-line {
   display: block;
   width: 50%;
-  height: 0.5px;
+  height: 1px;
   background: #333;
 }
 
