@@ -405,6 +405,7 @@ p {
 .events-slider-controller-content {
   position: relative;
   cursor: default;
+  padding: 0 10%;
 }
 
 .events-slider-line {
@@ -722,4 +723,50 @@ p {
 .small-event-date-month {
   font-family: 'Lora', serif;
   margin-top: 7px;
+}
+
+
+#actor-img-1 {
+  background-image: url("../img/actors/1/2.jpg");
+  height: 266px;
+}
+
+#actor-img-2 {
+  background-image: url("../img/actors/2/2.jpg");
+  height: 350px;
+}
+
+#actor-img-3 {
+  background-image: url("../img/actors/3/2.jpg");
+  height: 322px;
+}
+
+#actor-img-4 {
+  background-image: url("../img/actors/4/2.jpg");
+  height: 320px;
+}
+
+#actor-img-5 {
+  background-image: url("../img/actors/5/2.jpg");
+  height: 283px;
+}
+
+#actor-img-6 {
+  background-image: url("../img/actors/6/2.jpg");
+  height: 282px;
+}
+
+#actor-img-7 {
+  background-image: url("../img/actors/7/2.jpg");
+  height: 335px;
+}
+
+#actor-img-8 {
+  background-image: url("../img/actors/8/2.jpg");
+  height: 297px;
+}
+
+.actors-list-column a{
+  color: inherit;
+  text-decoration: none;
 }

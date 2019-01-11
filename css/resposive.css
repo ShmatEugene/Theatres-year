@@ -203,6 +203,10 @@
   .home-intro-block {
     padding: 50px;
   }
+
+  .home-theatre-hover-inside h3 {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1000px) {

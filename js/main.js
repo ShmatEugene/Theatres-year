@@ -16,7 +16,7 @@ $('.home-theatre-block').hover(function() {
 
 
 $('.events-slider-controller').hover(function() {
-  var urlStart = 'url(img/' + $(this).attr('id').slice(0, 2) + '/';
+  var urlStart = 'url(../img/' + $(this).attr('id').slice(0, 2) + '/';
   changeBg($(this), '.event-slide-bg', -1, urlStart);
   //$('.events-target1-date').addClass('event-date-active');
   //let dateSelector = '.events-target' + $(this).attr('id').slice(-1) + 'date';
